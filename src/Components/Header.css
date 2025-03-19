@@ -1,0 +1,20 @@
+/* Header.css */
+.navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .btn-white {
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-white:hover {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  

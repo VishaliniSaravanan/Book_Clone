@@ -1,0 +1,19 @@
+/* index.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* Optional: Light background */
+  border-top: 50px;
+}
+.carousel {
+  width: 100%; /* Extend carousel horizontally */
+  max-width:90%; /* Remove any width restrictions */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensures images stay within rounded corners */
+}

@@ -1,0 +1,97 @@
+.event-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  /* Title Styling */
+  .host-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Top Cards */
+  .top-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .event-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff4757;
+    background: linear-gradient(135deg, #ffe6e6, #ffecec);
+  }
+  
+  .event-card .icon {
+    margin-bottom: 10px;
+  }
+  
+  .event-card h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Bottom Cards */
+  .bottom-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .event-card.with-description {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+    background: linear-gradient(135deg, #f7f7f7, #fefefe);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card.with-description:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #3b82f6;
+    background: linear-gradient(135deg, #e6f7ff, #f0fbff);
+  }
+  
+  .event-card.with-description h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .event-card.with-description p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
