@@ -1,5 +1,5 @@
 import React from "react";
-import "./GiftCards.css"; // Import a CSS file for styling (styles below)
+import "./Giftcards.css"; // Import a CSS file for styling (styles below)
 
 const GiftCards = () => {
   const cards = [
