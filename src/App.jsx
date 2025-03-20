@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import Header from "./components/Header"; // Import your Header component
-import Login from "./components/Login"; // Import your Login component
+import Header from "./Components/Header"; // Import your Header component
+import Login from "./Components/Login"; // Import your Login component
 import Carousel from "./Carousel"; // Import your Carousel component
 import MovieCardCarousel from "./MovieCardCarousel"; // Import your MovieCardCarousel component
 import MovieCarousel2 from "./MovieCarousel2"; // Import your MovieCarousel2 component
