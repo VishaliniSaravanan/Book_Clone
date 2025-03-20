@@ -1,5 +1,5 @@
 import React from "react";
-import './footer.css'; // Path to your CSS file
+import './Footer.css'; // Path to your CSS file
 
 import { FaFacebookF, FaTimes, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 
@@ -86,7 +86,7 @@ const Footer = () => {
             <a href="#" className="social-icon" aria-label="LinkedIn"><FaLinkedinIn /></a>
           </div>
           <div className="copyright-text">
-            <p>&copy; 2024 Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+            <p>&copy; 2025 Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
             <p>The content on this site is protected by copyright law.</p>
           </div>
           <div className="bookmyshow-logo">
