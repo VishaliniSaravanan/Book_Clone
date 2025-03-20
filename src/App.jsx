@@ -10,7 +10,7 @@ import CarouselComponent from "./CarouselComponent"; // Import your CarouselComp
 import Laughter from "./Laughter"; // Import your Laughter component
 import Footer from "./Components/Footer"; // Import your Footer component
 import EventCards from "./Components/EventCards"; // Import your EventCards component
-import GiftCards from "./components/GiftCards"; // Import your GiftCards component
+import GiftCards from "./Components/GiftCards"; // Import your GiftCards component
 import "./App.css"; // Global styles for the app
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
