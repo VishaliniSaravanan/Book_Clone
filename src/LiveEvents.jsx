@@ -128,19 +128,19 @@ const LiveEvents = () => {
             >
               {[
                 {
-                  img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00417677-djedwsakau-portrait.jpg",
-                  title: "Christmas Eve in Miller's Point",
+                  img: "https://ik.imagekit.io/lbxf4ull5/et00439747-ufchwsyqbw-portrait.jpg?updatedAt=1743959434369",
+                  title: "A Meek One ",
                   lang: "English",
                 },
                 {
-                  img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00413291-jgamljhjzq-portrait.jpg",
-                  title: "Gladiator II",
-                  lang: "English, Hindi, Tamil, Telugu",
+                  img: "https://ik.imagekit.io/lbxf4ull5/et00432058-kvzaakhagr-portrait.jpg?updatedAt=1743959432559",
+                  title: "The Last Showgirl",
+                  lang: "English",
                 },
                 {
-                  img: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00398666-aylchydrqf-portrait.jpg",
-                  title: "Wicked",
-                  lang: "English",
+                  img: "https://ik.imagekit.io/lbxf4ull5/et00308539-fbntndvtlq-portrait.jpg?updatedAt=1743959392692",
+                  title: "Ahaan",
+                  lang: "English,Hindhi",
                 },
               ].map((premiere, index) => (
                 <div

@@ -46,7 +46,7 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICA2Mi43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00430623-rtqnsspgng-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00430623-gxyubexxhw-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
@@ -60,7 +60,7 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny43LzEwICA5NjUgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00437649-jveyefuvfu-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00437649-jveyefuvfu-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
@@ -73,7 +73,7 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS42LzEwICAyNC43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00432575-prtuezzawu-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00432575-prtuezzawu-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
@@ -86,7 +86,7 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICA3LjZLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00363454-erzxfsayzw-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00363454-yvvwucdegu-portrait.jpg?updatedAt=1743941474966"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
@@ -99,13 +99,13 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS4ySyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00420986-gkvturtcmw-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00410687-ctlnataapv-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Then Chennai</h5>
-                  <p className="card-text">Action/Crime/Thriller</p>
+                  <h5 className="card-title">A Minecraft Movie</h5>
+                  <p className="card-text">Action/Animation/Game</p>
                 </div>
               </div>
             </div>
@@ -117,13 +117,13 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTYwIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00438008-wzcqfpvqam-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00038721-vwwelrpfzw-portrait.jpg?updatedAt=1743941474966"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Trauma</h5>
-                  <p className="card-text">Crime/Thriller
+                  <h5 className="card-title">Vinnaithaandi Varuvaya</h5>
+                  <p className="card-text">Drama/Romance
                   </p>
                 </div>
               </div>
@@ -131,52 +131,52 @@ const MovieCardCarousel = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-My40SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00435187-tjshdnhwbt-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00434999-qfhyqzjrnd-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Asthram-The Secret</h5>
-                  <p className="card-text">Crime/Thriller</p>
+                  <h5 className="card-title">Flow</h5>
+                  <p className="card-text">Animation/Drama</p>
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-Ny43SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00400689-thhvkaglxf-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00019066-sapbfvslrb-portrait.jpg?updatedAt=1743941458991"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Miss You</h5>
-                  <p className="card-text">Comedy/Romantic</p>
+                  <h5 className="card-title">Interstellar</h5>
+                  <p className="card-text">Sci-Fic/Adventure/Mystery</p>
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-My4xSyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00419606-gneqrpnqus-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00439723-spxzknkefd-portrait.jpg?updatedAt=1743954140092"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Soodhu Kavvum 2</h5>
-                  <p className="card-text">Action/Comedy/Thriller</p>
+                  <h5 className="card-title">One of Them Days</h5>
+                  <p className="card-text">Drama/Comedy</p>
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4xLzEwICAzLjNLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00431691-nrmauhflgm-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00431346-bkeajwecau-portrait.jpg?updatedAt=1743954030753"
                   className="card-img-top"
                   alt="Movie Poster"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Sabdham</h5>
-                  <p className="card-text">Horror/Thriller</p>
+                  <h5 className="card-title">Good Bad Ugly</h5>
+                  <p className="card-text">Action/Drama/Thriller</p>
                 </div>
               </div>
             </div>
