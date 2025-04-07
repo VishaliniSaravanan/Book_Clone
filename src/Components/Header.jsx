@@ -24,6 +24,10 @@ const Header = () => {
   const handleGiftCardsClick = () => {
     navigate('/gift-cards'); // Navigate to the Gift Cards page
   };
+  
+  const handleMoviesClick = () => {
+    navigate('/'); // Navigate to the Gift Cards page
+  };
 
   return (
     <header>
@@ -83,11 +87,16 @@ const Header = () => {
       <div className="gray-menu">
         <div className="container d-flex justify-content-between">
           <div>
-            {['Movies', 'Stream', 'Events', 'Plays', 'Sports', 'Activities'].map((item) => (
-              <a key={item} href="#">
-                {item}
-              </a>
-            ))}
+          {['Movies', 'Stream', 'Events', 'Plays', 'Sports', 'Activities'].map((item) => (
+  <a
+    key={item}
+    onClick={item === 'Movies' ? handleMoviesClick : undefined}
+    style={{ cursor: 'pointer' }}
+  >
+    {item}
+  </a>
+))}
+
           </div>
           <div>
             <a onClick={handleListYourShowClick} style={{ cursor: 'pointer' }}>
