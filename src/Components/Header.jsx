@@ -1,74 +1,60 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Header.css'; // Ensure responsiveness styles are added here
+import './Header.css';
 
 const Header = () => {
   const [selectedLocation, setSelectedLocation] = useState('Your Location');
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const navigate = useNavigate();
 
   const locations = ['Mumbai', 'Hyderabad', 'Madurai', 'Kolkata', 'Chennai', 'Pune', 'Kochi'];
-
-  const handleLocationChange = (location) => {
-    setSelectedLocation(location);
-    console.log(`Selected location: ${location}`);
-  };
-
-  const handleSignIn = () => navigate('/login');
-  const handleListYourShowClick = () => navigate('/event-cards');
-  const handleGiftCardsClick = () => navigate('/gift-cards');
-  const handleMoviesClick = () => navigate('/');
+  const navLinks = [
+    { label: 'Movies', onClick: () => navigate('/') },
+    { label: 'Stream' },
+    { label: 'Events' },
+    { label: 'Plays' },
+    { label: 'Sports' },
+    { label: 'Activities' },
+    { label: 'ListYourShow', onClick: () => navigate('/event-cards') },
+    { label: 'Corporates' },
+    { label: 'Offers' },
+    { label: 'Gift Cards', onClick: () => navigate('/gift-cards') },
+  ];
 
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            <img
-              src="https://latestlogo.com/wp-content/uploads/2024/03/bookmyshow.svg"
-              alt="BookMyShow"
-              className="header-logo"
+    <>
+      <header>
+        <nav className="navbar navbar-light bg-white shadow-sm">
+          <div className="container-fluid d-flex align-items-center gap-3 desktop-header">
+            {/* Logo */}
+            <a className="navbar-brand" href="/">
+              <img src="https://latestlogo.com/wp-content/uploads/2024/03/bookmyshow.svg" alt="BookMyShow" />
+            </a>
+
+            {/* Search Bar */}
+            <input
+              className="form-control"
+              type="search"
+              placeholder="Search for Movies, Events, Plays, Sports and Activities"
+              aria-label="Search"
             />
-          </a>
 
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-            aria-controls="navbarContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarContent">
-            <form className="d-flex flex-grow-1 mx-3 my-2 my-lg-0">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search for Movies, Events, Plays, Sports and Activities"
-                aria-label="Search"
-              />
-            </form>
-
-            <div className="dropdown me-3 my-2 my-lg-0">
+            {/* Location Dropdown */}
+            <div className="dropdown">
               <button
                 className="btn btn-white dropdown-toggle"
                 type="button"
-                id="dropdownMenuButton"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 {selectedLocation}
               </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <ul className="dropdown-menu">
                 {locations.map((location) => (
                   <li key={location}>
                     <button
                       className="dropdown-item"
-                      type="button"
-                      onClick={() => handleLocationChange(location)}
+                      onClick={() => setSelectedLocation(location)}
                     >
                       {location}
                     </button>
@@ -77,46 +63,43 @@ const Header = () => {
               </ul>
             </div>
 
-            <button
-              className="btn btn-danger my-2 my-lg-0"
-              onClick={handleSignIn}
-            >
+            {/* Sign In Button */}
+            <button className="btn btn-danger" onClick={() => navigate('/login')}>
               Sign In
             </button>
-          </div>
-        </div>
-      </nav>
 
-      <div className="gray-menu py-2">
-        <div className="container d-flex flex-wrap justify-content-between align-items-center">
-          <div className="menu-left d-flex flex-wrap gap-3">
-            {['Movies', 'Stream', 'Events', 'Plays', 'Sports', 'Activities'].map((item) => (
-              <a
-                key={item}
-                onClick={item === 'Movies' ? handleMoviesClick : undefined}
-                className="menu-link"
-                style={{ cursor: 'pointer' }}
-              >
-                {item}
-              </a>
-            ))}
+            {/* Hamburger for Mobile */}
+            <div className="mobile-only">
+              <button className="btn btn-outline-secondary hamburger-btn" onClick={() => setDrawerOpen(true)}>
+                &#9776;
+              </button>
+            </div>
           </div>
-          <div className="menu-right d-flex flex-wrap gap-3">
-            <a onClick={handleListYourShowClick} className="menu-link" style={{ cursor: 'pointer' }}>
-              ListYourShow
+        </nav>
+      </header>
+
+      {/* Mobile Drawer */}
+      <div className={`side-drawer ${drawerOpen ? 'open' : ''}`}>
+        <button className="close-btn" onClick={() => setDrawerOpen(false)}>&times;</button>
+        <div className="drawer-links">
+          {navLinks.map(({ label, onClick }) => (
+            <a
+              key={label}
+              className="drawer-link"
+              onClick={() => {
+                setDrawerOpen(false);
+                if (onClick) onClick();
+              }}
+            >
+              {label}
             </a>
-            {['Corporates', 'Offers'].map((item) => (
-              <a key={item} className="menu-link" href="#">
-                {item}
-              </a>
-            ))}
-            <a onClick={handleGiftCardsClick} className="menu-link" style={{ cursor: 'pointer' }}>
-              Gift Cards
-            </a>
-          </div>
+          ))}
         </div>
       </div>
-    </header>
+
+      {/* Overlay */}
+      {drawerOpen && <div className="drawer-overlay" onClick={() => setDrawerOpen(false)}></div>}
+    </>
   );
 };
 
