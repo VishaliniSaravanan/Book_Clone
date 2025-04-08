@@ -114,7 +114,7 @@ const Footer = () => {
       <i className="fi fi-brands-instagram"></i>
     </span>
   </a>
-  <a href="#" className="social-icon" aria-label="LinkedIn">
+  <a href="#" class            Name="social-icon" aria-label="LinkedIn">
     <span role="img" aria-label="linkedin">
       <i className="fi fi-brands-linkedin"></i>
     </span>
@@ -122,7 +122,7 @@ const Footer = () => {
 </div>
         <div className="copyright-text">
           <p>
-            © 2025 CloneWeb Entertainment Pvt. Ltd. All Rights Reserved. This is a frontend web clone of BookMyShow, created for educational or demonstration purposes only. It replicates the design and layout but does not function as the real website. The content and images used are inspired by the original site and are copyright protected, with copyrights vesting with their respective owners. This project is not affiliated with or endorsed by BookMyShow .Unauthorized use of the original content is prohibited and punishable by law.
+© 2025 CloneWeb Entertainment Pvt. Ltd. All Rights Reserved. This is a frontend web clone of BookMyShow, created for educational or demonstration purposes only. It replicates the design and layout but does not function as the real website. The content and images used are inspired by the original site and are copyright protected, with copyrights vesting with their respective owners. This project is not affiliated with or endorsed by BookMyShow .Unauthorized use of the original content is prohibited and punishable by law.
           </p>
         </div>
       </div>
