@@ -23,8 +23,8 @@ const Header = () => {
 
   return (
     <>
-      <header>
-        <nav className="navbar navbar-light bg-white shadow-sm">
+      <header style={{ position: 'sticky', top: 0, zIndex: 1000, backgroundColor: 'white' }}>
+        <nav className="navbar navbar-light shadow-sm" style={{ backgroundColor: 'white' }}>
           <div className="container-fluid d-flex align-items-center gap-3 desktop-header">
             {/* Logo */}
             <a className="navbar-brand" href="/">

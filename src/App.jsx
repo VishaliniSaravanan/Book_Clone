@@ -33,23 +33,23 @@ const Home = () => (
 // App content using useLocation
 const AppContent = () => {
   const location = useLocation();
+  const isLoginPage = location.pathname === "/login";
 
   return (
-    <>
-      {/* Header shown on all pages except login */}
-      {location.pathname !== "/login" && <Header />}
-
-      {/* Routes */}
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/event-cards" element={<EventCards />} />
-        <Route path="/gift-cards" element={<GiftCards />} />
-      </Routes>
-
-      {/* Footer always shown */}
-      <Footer />
-    </>
+    <div className="app-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      {!isLoginPage && <Header />}
+      
+      <main style={{ flex: 1, paddingBottom: '60px' }}>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/event-cards" element={<EventCards />} />
+          <Route path="/gift-cards" element={<GiftCards />} />
+        </Routes>
+      </main>
+      
+      {!isLoginPage && <Footer />}
+    </div>
   );
 };
 
