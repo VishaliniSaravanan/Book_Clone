@@ -32,7 +32,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00471139-lwrbdvbdnn-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00471318-ccqkxwnzkt-portrait.jpg"
                   className="card-img-top"
                   alt="SPACETECH FESTIVAL"
                 />
@@ -46,7 +46,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00467933-pdebndphpk-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00467933-pdebndphpk-portrait.jpg"
                   className="card-img-top"
                   alt="Sunburn Arena"
                 />
@@ -60,7 +60,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00461392-qxnxjecnvf-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00461392-qxnxjecnvf-portrait.jpg"
                   className="card-img-top"
                   alt="Calvin Harris"
                 />
@@ -74,7 +74,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00471139-lwrbdvbdnn-portrait.jpg"
+                src="et00471139-lwrbdvbdnn-portrait.jpg"
                   className="card-img-top"
                   alt="Thalaivar 50"
                 />
@@ -88,7 +88,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00458267-edxnqhkbuv-portrait.jpg"
+                 src="https://ik.imagekit.io/lbxf4ull5/et00458267-edxnqhkbuv-portrait.jpg"
                   className="card-img-top"
                   alt="Lollapalooza"
                 />
@@ -107,7 +107,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00469295-pleswjxnrp-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00469295-pleswjxnrp-portrait.jpg"
                   className="card-img-top"
                   alt="Jung Kook Exhibition"
                 />
@@ -121,7 +121,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00475232-svwcjalnpx-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00475232-svwcjalnpx-portrait.jpg"
                   className="card-img-top"
                   alt="Def Leppard"
                 />
@@ -135,7 +135,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00469594-aatlwwqckz-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00469594-aatlwwqckz-portrait.jpg"
                   className="card-img-top"
                   alt="Linkin Park"
                 />
@@ -149,7 +149,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00464841-ezpmjbsucr-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00464841-ezpmjbsucr-portrait.jpg"
                   className="card-img-top"
                   alt="John Mayer"
                 />
@@ -163,7 +163,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="et00457514-abzhhmswcj-portrait.jpg"
+                  src="https://ik.imagekit.io/lbxf4ull5/et00457514-abzhhmswcj-portrait.jpg"
                   alt="The Lumineers"
                 />
                 <div className="card-body">
