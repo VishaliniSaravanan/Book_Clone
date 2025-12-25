@@ -74,7 +74,7 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                src="et00471139-lwrbdvbdnn-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00471139-lwrbdvbdnn-portrait.jpg"
                   className="card-img-top"
                   alt="Thalaivar 50"
                 />
