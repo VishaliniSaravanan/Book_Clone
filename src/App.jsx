@@ -1,21 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import Header from "./Components/Header"; // Import your Header component
-import Login from "./Components/Login"; // Import your Login component
-import Carousel from "./Carousel"; // Import your Carousel component
-import MovieCardCarousel from "./MovieCardCarousel"; // Import your MovieCardCarousel component
-import MovieCarousel2 from "./MovieCarousel2"; // Import your MovieCarousel2 component
-import LiveEvents from "./LiveEvents"; // Import your LiveEvents component
-import CarouselComponent from "./CarouselComponent"; // Import your CarouselComponent
-import Laughter from "./Laughter"; // Import your Laughter component
-import Footer from "./Components/Footer"; // Import your Footer component
-import EventCards from "./Components/EventCards"; // Import your EventCards component
-import GiftCards from "./Components/GiftCards"; // Import your GiftCards component
-import "./App.css"; // Global styles for the app
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import Header from "./Components/Header";
+import Login from "./Components/Login";
+import Carousel from "./Carousel";
+import MovieCardCarousel from "./MovieCardCarousel";
+import MovieCarousel2 from "./MovieCarousel2";
+import LiveEvents from "./LiveEvents";
+import CarouselComponent from "./CarouselComponent";
+import Laughter from "./Laughter";
+import Footer from "./Components/Footer";
+import EventCards from "./Components/EventCards";
+import GiftCards from "./Components/GiftCards";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const App = () => {
-  const location = useLocation(); // Hook to get the current route
+// Create a new component that will use useLocation
+const AppContent = () => {
+  const location = useLocation();
 
   return (
     <div>
@@ -49,17 +50,19 @@ const App = () => {
         <Route path="/gift-cards" element={<GiftCards />} />
       </Routes>
 
-      {/* Footer always rendered at the bottom */}
-      {location.pathname !== "/login" && <Footer />}
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
 
-// Wrap the App with Router to provide routing functionality
-const AppWrapper = () => (
-  <Router>
-    <App />
-  </Router>
-);
+// Wrap the AppContent with Router
+const App = () => {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+};
 
-export default AppWrapper;
+export default App;
