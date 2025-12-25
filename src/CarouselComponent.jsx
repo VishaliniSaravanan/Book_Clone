@@ -6,7 +6,7 @@ const CarouselComponent = () => {
       id="music"
       className="carousel slide"
       data-bs-ride="carousel"
-      data-bs-interval="3000" // Autoplay interval in milliseconds
+      data-bs-interval="3000"
       style={{
         margin: '20px auto',
         padding: '10px',
@@ -29,71 +29,72 @@ const CarouselComponent = () => {
         {/* First Slide */}
         <div className="carousel-item active">
           <div className="row row-cols-1 row-cols-md-5 g-4">
-            {/* Movie Card 1 */}
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNCBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00432207-yucrwuwwkv-portrait.jpg"
+                  src="et00471139-lwrbdvbdnn-portrait.jpg"
                   className="card-img-top"
-                  alt=""
+                  alt="SPACETECH FESTIVAL"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Ed Sheeran +-=x India Tour 2025 in CHENNAI</h5>
-                  <p className="card-text">YMCA ground: Chennai Concerts</p>
+                  <h5 className="card-title">SPACETECH FESTIVAL WINTER EDITION</h5>
+                  <p className="card-text">Palm Bliss Resort & Spa: Kullu NYE Parties</p>
                 </div>
               </div>
             </div>
-            {/* Add more movie cards */}
+
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00437140-eplnqgnkny-portrait.jpg"
+                  src="et00467933-pdebndphpk-portrait.jpg"
                   className="card-img-top"
-                  alt=""
+                  alt="Sunburn Arena"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Lollapalooza India 2025</h5>
+                  <h5 className="card-title">Sunburn Arena NYE ft. ARGY</h5>
+                  <p className="card-text">Bhartiya Mall of Bengaluru Concerts</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src="et00461392-qxnxjecnvf-portrait.jpg"
+                  className="card-img-top"
+                  alt="Calvin Harris"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">CALVIN HARRIS - Live in Bengaluru</h5>
+                  <p className="card-text">NICE Grounds: Bengaluru Concerts</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src="et00471139-lwrbdvbdnn-portrait.jpg"
+                  className="card-img-top"
+                  alt="Thalaivar 50"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">THALAIVAR 50 SUPER STAR</h5>
+                  <p className="card-text">Gandhi Memorial Museum: Madurai Concerts</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src="et00458267-edxnqhkbuv-portrait.jpg"
+                  className="card-img-top"
+                  alt="Lollapalooza"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Lollapalooza India 2026</h5>
                   <p className="card-text">Mahalaxmi Race Course: Mumbai Concerts</p>
-                </div>
-              </div>
-            </div>
-            {/* Add similar cards for Martin, Once Upon a Time in Madras, Lara */}
-            <div className="col">
-              <div className="card">
-                <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAzMCBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00429797-tuxkhgqgrx-portrait.jpg"
-                  className="card-img-top"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Unni Menon-40</h5>
-                  <p className="card-text">Kamarajar Arangam : Chennai Concerts</p>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA2IEFwcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00436625-alffcrsrjg-portrait.jpg"
-                  className="card-img-top"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Jio Presents Hamleys Wonderland</h5>
-                  <p className="card-text">Jio World Garden,Gate No.3 BKC:Mumbai Entertainment</p>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA1IEFwcg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00436595-ygpfmeqwbm-portrait.jpg"
-                  className="card-img-top"
-                  alt="Movie Poster"
-                />
-                <div className="card-body">
-                  <h5 className="card-title">"HAAZRI" A.R.Rahman Live In Concert</h5>
-                  <p className="card-text">Jio World Garden,BKC:Mumbai Entertainment</p>
                 </div>
               </div>
             </div>
@@ -106,63 +107,68 @@ const CarouselComponent = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNiBBcHI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00434940-pkrgdasbns-portrait.jpg"
+                  src="et00469295-pleswjxnrp-portrait.jpg"
                   className="card-img-top"
-                  alt="Moana 2 Poster"
+                  alt="Jung Kook Exhibition"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Electrifying Evening</h5>
-                  <p className="card-text">Chennai Concerts</p>
+                  <h5 className="card-title">Jung Kook Exhibition "GOLDEN: The Moments"</h5>
+                  <p className="card-text">Stage 1, Mehboob Studios: Mumbai Artist Legacy</p>
                 </div>
               </div>
             </div>
-            {/* Add more cards for Mufasa, Identity, Marco, Max */}
+
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxMyBBcHI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00406561-udwzewjazf-portrait.jpg"
+                  src="et00475232-svwcjalnpx-portrait.jpg"
                   className="card-img-top"
-                  alt="Moana 2 Poster"
+                  alt="Def Leppard"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Lollapalooza India 2025</h5>
+                  <h5 className="card-title">Def Leppard India Tour - Bengaluru</h5>
+                  <p className="card-text">NICE Grounds: Bengaluru Concerts</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src="et00469594-aatlwwqckz-portrait.jpg"
+                  className="card-img-top"
+                  alt="Linkin Park"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Linkin Park: From Zero World Tour 2026</h5>
+                  <p className="card-text">Brigade Innovation Gardens: Muddenahalli, Bengaluru Concerts</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src="et00464841-ezpmjbsucr-portrait.jpg"
+                  className="card-img-top"
+                  alt="John Mayer"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">John Mayer Solo - Live In Mumbai, 2026</h5>
                   <p className="card-text">Mahalaxmi Race Course: Mumbai Concerts</p>
                 </div>
               </div>
-            </div><div className="col">
+            </div>
+
+            <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCA0IEFwciBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00436864-ztxctslyhn-portrait.jpg"
-                  className="card-img-top"
-                  alt="Moana 2 Poster"
+                  src="et00457514-abzhhmswcj-portrait.jpg"
+                  alt="The Lumineers"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nostalagic 90's</h5>
-                  <p className="card-text">Kamarajar Arangam : Chennai Concerts</p>
-                </div>
-              </div>
-            </div><div className="col">
-              <div className="card">
-                <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyMiBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00434283-zgzcelkndu-portrait.jpg"
-                  className="card-img-top"
-                  alt="Moana 2 Poster"
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Carnatic Duet</h5>
-                  <p className="card-text">Kmarajar Arangam Chennai Concerts</p>
-                </div>
-              </div>
-            </div><div className="col">
-              <div className="card">
-                <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAzMCBNYXI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00435382-zbhkpqadrt-portrait.jpg"
-                  className="card-img-top"
-                  alt="Moana 2 Poster"
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Ranjani and Gayatri Classical Concert</h5>
-                  <p className="card-text">Chennai Concerts</p>
+                  <h5 className="card-title">The Lumineers: The Automatic World Tour</h5>
+                  <p className="card-text">Huda Ground: Gurugram Concerts</p>
                 </div>
               </div>
             </div>
