@@ -3,10 +3,11 @@ import React from 'react';
 const Laughter = () => {
   return (
     <div
-      id="music"
+      id="laughter"
       className="carousel slide"
       data-bs-ride="carousel"
       data-bs-interval="3000"
+      data-bs-wrap="false"
       style={{
         margin: '20px auto',
         padding: '10px',
@@ -48,13 +49,13 @@ const Laughter = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyNyBEZWMgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00131954-kfsqvpncqw-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00441260-kensnhwseb-portrait.jpg"
                   className="card-img-top"
                   alt="Event 2"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Banker in the House</h5>
-                  <p className="card-text">Outdoor Mumbai</p>
+                  <h5 className="card-title">Survivor's Guilt</h5>
+                  <p className="card-text">JC Residency:Madurai</p>
                 </div>
               </div>
             </div>
@@ -76,7 +77,7 @@ const Laughter = () => {
             <div className="col">
               <div className="card">
                 <img
-                  src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyMSBEZWMgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00135461-qwtgywhtju-portrait.jpg"
+                src="https://ik.imagekit.io/lbxf4ull5/et00135461-nwfldcpufj-portrait.jpg"
                   className="card-img-top"
                   alt="Event 4"
                 />
@@ -166,25 +167,6 @@ const Laughter = () => {
         </div>
       </div>
 
-      {/* Carousel Controls */}
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#laughhter"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#laughter"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
     </div>
   );
 };
