@@ -1,13 +1,21 @@
 /* General Navbar Styling */
 .navbar {
-  background-color: white;
+  background-color: white !important;
   border-bottom: 1px solid #ddd;
   padding: 0.5rem 1rem;
+  display: block !important;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: flex !important;
+  align-items: center;
 }
 
 .navbar-brand img {
   height: 40px;
   max-width: 100%;
+  display: block;
 }
 
 .btn-white {
@@ -97,6 +105,11 @@
   z-index: 1040;
 }
 
+/* Desktop Navigation Menu */
+.desktop-nav {
+  display: flex;
+}
+
 /* Mobile-specific styles */
 .mobile-only {
   display: none;
@@ -104,7 +117,11 @@
 
 @media (max-width: 768px) {
   .mobile-only {
-    display: block;
+    display: block !important;
+  }
+
+  .desktop-nav {
+    display: none !important;
   }
 
   .desktop-header {
